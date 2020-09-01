@@ -1,0 +1,33 @@
+@import "reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+
+html{
+    background-color: #EDF3F8;
+    font-family: 'Manrope', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+p{
+    color: hsl(215, 16%, 59%);
+}
+
+.uk-card-title{
+    color:hsl(214, 17%, 51%);
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 5%;
+}
+.uk-card{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+
+}
+
+
+
+.attribution{margin-top: 72vh;}
