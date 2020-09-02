@@ -51,18 +51,62 @@ html {
   line-height: 1.5; }
 
 p {
-  color: #8694a7; }
+  color: #8694a7;
+  margin-top: 10px; }
+
+.author, .uk-card-title {
+  color: #545a64 !important;
+  font-weight: 700; }
 
 .uk-card-title {
-  color: #6d7f97;
-  font-weight: 700;
-  font-size: 1.3em;
-  margin-bottom: 5%; }
+  font-size: 1.4rem;
+  line-height: 1.5; }
 
 .uk-card {
-  width: 50%;
+  width: 45%;
+  height: 250px;
   margin-top: 15%;
-  margin-left: 25%; }
+  margin-left: 25%;
+  border-radius: 10px; }
+
+.cover {
+  width: 260px !important;
+  height: 250px !important;
+  margin-left: -9.1%;
+  margin-top: -5.2%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px; }
+
+.uk-card-body {
+  width: 95%;
+  margin-left: -17%;
+  margin-top: -4%; }
+
+.author {
+  margin-top: 25px; }
+
+.date {
+  margin-top: 6px;
+  color: #9eafc2;
+  font-size: 0.9rem; }
+
+.profile-rounded {
+  float: left;
+  border-radius: 50%;
+  width: 35px;
+  margin: 0px 10px 10px 10px; }
+
+.share {
+  float: right;
+  background-color: #ecf2f8;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: -7%; }
+
+.share svg {
+  margin-top: 10px; }
 
 .attribution {
   margin-top: 72vh; }

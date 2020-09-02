@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   
   <title>Frontend Mentor | Article preview component</title>
 
@@ -20,8 +20,8 @@
 
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
         <div class="uk-card-media-left uk-cover-container">
-            <img src="img/drawers.jpg" alt="" uk-cover>
-            <canvas width="272" height="272"></canvas>
+            <img src="img/drawers.jpg" alt="" uk-cover class="cover">
+            <canvas width="202" height="282"></canvas>
         </div>
         <div>
             <div class="uk-card-body">
@@ -30,10 +30,14 @@
                 <p>Ever been in a room and felt like something was missing? Perhaps 
                     it felt slightly bare and uninviting. I’ve got some simple tips 
                     to help you make any room feel complete.</p>
-                    Michelle Appleton
-                    28 Jun 2020
-            
-                    Share
+                <div class="metainfo">
+                    <img src="img/avatar-michelle.jpg" alt="" class="profile-rounded">
+                    <p class="author">Michelle Appleton</p>
+                    <p class="date"> 28 Jun 2020</p>
+                </div> 
+                <div class="share">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+                </div>
             </div>
         </div>
     </div>
